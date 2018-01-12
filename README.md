@@ -2,7 +2,7 @@
 Shell script to easily open a PDF file via MuPDF to a specific chapter if the PDF has no links.
 
 Usage:
-./mupdf-pager <path_to_pdf>/<filename> <chapter>
+./mu-pager <path_to_pdf>/<filename> <chapter>
     
 NB: 'filename' without extension
 
