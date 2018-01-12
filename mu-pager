@@ -1,0 +1,10 @@
+#!/bin/sh
+page=$(/usr/bin/awk '
+{
+page_number[$1] = $2;
+}
+END {
+print page_number[chap];
+}' chap=$2 $1.txt)
+
+/usr/bin/mupdf $1.pdf $page
