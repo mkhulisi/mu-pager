@@ -1,4 +1,5 @@
 #!/bin/sh
+#pages
 page=$(/usr/bin/awk '
 {
 page_number[$1] = $2;
